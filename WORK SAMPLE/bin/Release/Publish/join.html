@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <style>
+        * {
+            font-size: large;
+            font-family: 'B Yekan';
+        }
+
+        .header {
+            height: 150px;
+            top: 0;
+            position: fixed;
+            background-color: #3c3434;
+            color: antiquewhite;
+            z-index: 1000;
+        }
+
+        .up-right {
+            float: right;
+            right: -5px
+        }
+
+        .up-center {
+            text-align:center
+        }
+
+        .up-left {
+            left: 0px;
+            position: sticky;
+        }
+
+        .ul-li {
+            display: inline
+        }
+
+        .homepage {
+            float: right;
+        }
+
+        input {
+            display: block;
+            width: 300px;
+            height: 50px;
+            margin: 10px 50px 10px 50px;
+        }
+
+        .main {
+            margin: 200px 0 200px 500px;
+            width: 400px;
+            height: 600px;
+            border: solid;
+        }
+    </style>
+    <header class="header  col-md-12">
+
+
+        <div class="up-left  col-md-3">
+            <img src="logo.png" width="250" height="130" style="margin:10px;border-radius:4px;" />
+        </div>
+
+
+
+
+
+        <div class=" up-center  col-md-6">
+            This is my samle job
+        </div>
+
+
+
+
+        <div class="up-right  col-md-3">
+            <ul class=" homepage ul">
+                <li class=" btn glyphicon glyphicon-home" style="display:block">
+                    <a href="Index.html" class="btn">home </a>
+                </li>
+                <li class="btn glyphicon glyphicon-log-in">
+                    <a href="log in.html" target="_blank" class="btn">ورود</a>
+                </li>
+                /
+                <li class="ul-li  btn ">
+                    <a href="join.html" target="_blank" class="btn">عضویت</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </header>
+    <div class="main">
+
+        <br />
+        <input id="name" class="text-center " type="text" placeholder="نام" />
+        <br />
+        <input id="family" class="text-center" type="text" placeholder="نام خانوادگی" />
+        <br />
+        <input id="user" class="text-center" type="text" placeholder="نام کاربری" />
+        <br />
+        <input id="pass" class="text-center" type="text" placeholder="رمز عبور" />
+        <br />
+        <br />
+        <br />
+        <button id="join" class="btn btn-primary" style="width:300px;height:50px; margin:10px 50px 10px 50px;">join</button>
+        <br />
+        <a href="Index.html" style="margin:155px;"> Hmoe page</a>
+        <a href="log in.html" style="margin:180px;"> login</a>
+        <br />
+        <br />
+        <br />
+        <div id="a" style="display:none;opacity:0.6;background-color:forestgreen;color:whitesmoke;border-radius:20px;width:100%;height:50px;text-align:center">
+            <p>با موفقیت انجام شد</p>
+        </div>
+    </div>
+    <script>
+        
+        function human(){
+            let name = "";
+            let family = "";
+            let pass = 0;
+            let user = '';
+        }
+        var h = new human();
+        $("#join").click(function () {
+            h.name = $("#name").val();
+            h.family = $("#family").val();
+            h.user = $("#user").val();
+            h.pass = $("#pass").val();
+            //alert(h.name)
+            send(h);
+           
+        })
+        function send(p) {
+            $.get('/human/send', p, function (data) {
+                if (data == 1) {
+                    $("#a").show(500);
+                    $("#a").hide(2000);
+                }              
+                if (data == 0) {
+                    alert("نام کاربری و رمز عبور موجود است لطفا نام کاربری و رمز عبور خود را تغییر دهید")
+                }
+                if (data == -1) {
+                    alert("خطایی رخ داده است");
+                }
+              
+            })           
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="sj-Web.config Connection String" description="sj Connection String used in web.config by the application to access the database." defaultValue="Data Source=DESKTOP-K74D2EG\MMD;Initial Catalog=samlejob;Integrated Security=true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\source\\WORK\ SAMPLE\\WORK\ SAMPLE\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='sj']/@connectionString" />
+  </parameter>
+</parameters>

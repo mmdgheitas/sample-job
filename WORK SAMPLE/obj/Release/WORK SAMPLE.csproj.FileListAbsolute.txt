@@ -1,0 +1,86 @@
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\WORK SAMPLE.dll.config
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\WORK SAMPLE.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\WORK SAMPLE.pdb
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\csc.exe
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\csc.exe.config
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\csc.rsp
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\csi.exe
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\csi.exe.config
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\csi.rsp
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.Managed.Core.targets
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.AppContext.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Collections.Immutable.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Console.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.IO.Compression.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.IO.FileSystem.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.IO.Pipes.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Reflection.Metadata.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Security.AccessControl.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Security.Claims.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Security.Principal.Windows.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.ValueTuple.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Xml.XmlDocument.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Xml.XPath.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\vbc.exe
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\vbc.exe.config
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\vbc.rsp
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\VBCSCompiler.exe
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\roslyn\VBCSCompiler.exe.config
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\Antlr3.Runtime.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\EntityFramework.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\EntityFramework.SqlServer.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\Microsoft.Web.Infrastructure.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\Newtonsoft.Json.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Net.Http.Formatting.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Helpers.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Http.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Http.WebHost.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Mvc.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Optimization.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Razor.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.WebPages.Deployment.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.WebPages.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.WebPages.Razor.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\WebGrease.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\EntityFramework.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\EntityFramework.SqlServer.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Helpers.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Mvc.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Optimization.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Razor.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.WebPages.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.WebPages.Deployment.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.WebPages.Razor.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\Newtonsoft.Json.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\Antlr3.Runtime.pdb
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Net.Http.Formatting.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Http.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\System.Web.Http.WebHost.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\source\WORK SAMPLE\WORK SAMPLE\obj\Release\WORK SAMPLE.csprojAssemblyReference.cache
+E:\source\WORK SAMPLE\WORK SAMPLE\obj\Release\WORK SAMPLE.csproj.CoreCompileInputs.cache
+E:\source\WORK SAMPLE\WORK SAMPLE\obj\Release\WORK SAMPLE.csproj.CopyComplete
+E:\source\WORK SAMPLE\WORK SAMPLE\obj\Release\WORK SAMPLE.dll
+E:\source\WORK SAMPLE\WORK SAMPLE\obj\Release\WORK SAMPLE.pdb

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <style>
+           * {
+            font-size:large;
+            font-family: 'B Yekan';
+        }
+        input{
+            display:block;
+            width:300px;
+            height:50px;
+           margin:10px 50px 10px 50px;
+        }
+        .main{
+            margin:200px 0 200px 500px;
+            width:400px;
+            height:500px;
+            border:solid;
+        }
+      
+    </style>
+    <div class="main">
+
+        <br />
+        <input id="user" class="text-center " type="text" placeholder="نام کاربری" />
+        <br />
+        <input id="pass" class="text-center" type="text" placeholder="رمز عبور" />
+        <br />
+        <br />
+        <br />
+        <button id="login" class="btn btn-primary" style="width:300px;height:50px; margin:10px 50px 10px 50px;">log in</button>
+        
+        
+        <br />
+        <a href="Index.html" style="margin:155px;"> Hmoe page</a>
+        <a href="join.html" style="margin:180px;"> join</a>
+    </div>
+    <script>
+        function human(){
+            var pass = 0;
+            var user = '';
+        }
+        var h = new human();
+
+        $("#login").click(function () {
+            h.user = $("#user").val();
+            h.pass = $("#pass").val();
+            recive(h);
+        })
+        function recive(d) {
+            
+            $.get('/human/recive', { name: d.user, pass: d.pass }, function (data) {
+               
+                if (data == true) {
+                   var win = window.open('backend.html');                   
+                }
+                if (data == false) {
+                    alert("نام کاربری یا رمز عبور اشتباه است")
+                }
+            })
+        }
+    </script>
+</body>
+</html>
